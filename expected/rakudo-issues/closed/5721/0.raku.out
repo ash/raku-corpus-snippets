@@ -1,0 +1,13 @@
+RakuAST::Doc::Paragraph.new(
+  RakuAST::Doc::Markup.new(
+    letter => "A",
+    opener => "<",
+    closer => ">",
+    atoms  => (
+      "Fallback",
+    ),
+    meta   => (
+      "XXX",
+    )
+  )
+)

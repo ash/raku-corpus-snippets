@@ -1,0 +1,1 @@
+LEAVE { blah } if foo;

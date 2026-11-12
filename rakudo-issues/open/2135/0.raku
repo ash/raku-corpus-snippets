@@ -1,0 +1,2 @@
+#| foo
+sub MAIN($x) { }

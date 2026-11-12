@@ -1,0 +1,5 @@
+unit grammar Test;
+#| sample leading declarator
+rule x () {;
+X}
+rule y () { Y}

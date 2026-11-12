@@ -1,0 +1,4 @@
+ok 1 - in list context hash literal with one Pair
+ok 2 - in list context hash literal with list of one Pair
+ok 3 - in list context hash literal with list of multiple Pairs
+1..3

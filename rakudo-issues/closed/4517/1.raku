@@ -1,0 +1,13 @@
+say WHAT my                           $a = [[1,2],]; # (Array)
+say WHAT my Array                     $b = [[1,2],]; # (Array)
+#say WHAT my Array[Array]              $c = [[1,2],]; # Type check failed
+#say WHAT my Array[Array[Int]]         $d = [[1,2],]; # Type check failed
+#say WHAT my Array[Array[Int]]()       $e = [[1,2],]; # Type check failed
+#say WHAT my Array[Array[Int()]]()     $f = [[1,2],]; # Type check failed
+say WHAT my Array[Array[Int()]()]()   $g = [[1,2],]; # (Array[Array[Int(Any)](Any)])
+#say WHAT my Array[Array[Int]]         $h = $g; # Type check failed
+say WHAT my Array[Array[Int]](Array[Array[Int](Array[Int]())]()) $i = [[1,2],]; # (Array[Array[Int]])
+say WHAT my Array[Array[Int]]         $j = $i; # (Array[Array[Int]])
+say WHAT my Array[Array[Int()]()]()   $k = [[1,'2'],]; # (Array[Array[Int(Any)](Any)])
+say WHAT my Array[Array[Int]](Array[Array[Int](Array[Int()]())]()) $l = [[1,'2'],]; # (Array[Array[Int]])
+say WHAT my Array[Array[Int]]         $m = $l; # Array[Array[Int]]

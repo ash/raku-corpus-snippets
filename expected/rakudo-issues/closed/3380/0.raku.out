@@ -1,0 +1,4 @@
+1..3
+not ok 1 - .is-lazy returns True on infinite gather
+ok 2 - .gist
+not ok 3 - .is-lazy does not hang after .gist

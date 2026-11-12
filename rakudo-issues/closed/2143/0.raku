@@ -1,0 +1,1 @@
+say Distribution::Resource.^mro

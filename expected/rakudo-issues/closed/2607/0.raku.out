@@ -1,0 +1,4 @@
+True
+True
+True
+Outer.new(inner => Inner.new)

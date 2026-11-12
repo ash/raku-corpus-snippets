@@ -1,0 +1,6 @@
+# Subtest: default signal handlers reinstalled after signal taps are closed
+    not ok 1 - killed with right signal
+    ok 2 - nothing on STDERR
+    not ok 3 - STDOUT contains only the stuff we expect
+    1..3
+not ok 1 - default signal handlers reinstalled after signal taps are closed

@@ -1,0 +1,5 @@
+  IO::Path.slurp(:bin)            DIES: Out of range: attempted to read 0 bytes from filehandle
+  IO::Path.slurp                  DIES: Out of range: attempted to read 0 bytes from filehandle
+  IO::Handle.slurp(:bin) (works)  1048576
+  IO::Handle.slurp (works)        1048576
+  open handles after 10 more IO::Path.slurp(:bin) and a GC: +10

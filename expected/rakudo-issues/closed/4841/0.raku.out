@@ -1,0 +1,6 @@
+ptp: @p.elems: 1
+a b c d e thing and another and the last g h
+ptp2: @p2.elems: 8
+a b c d e thing and another and the last g h
+ptp3: @p3.elems: 8
+a b c d e thing and another and the last g h

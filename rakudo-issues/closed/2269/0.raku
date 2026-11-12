@@ -1,0 +1,1 @@
+package TestD { role R { method foo(-->Int) {...} }; class C { has R $.delegate handles * is required; }; class D does R { has Int $.foo; }; }; my $d = TestD::D.new(:foo(2)); my $c = TestD::C.new(delegate => $d); say $d.foo; say $c.foo

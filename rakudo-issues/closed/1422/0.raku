@@ -1,0 +1,1 @@
+token term:sym<∞>                  { <sym> }

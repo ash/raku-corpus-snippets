@@ -1,0 +1,1 @@
+say Array ~~ [Real]; # True

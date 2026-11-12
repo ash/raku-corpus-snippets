@@ -1,0 +1,36 @@
+Original:
+｢=begin code :lang<RakuDoc>
+=config * :!error
+=end code
+｣
+AST:
+RakuAST::Doc::Block.new(
+  type       => "rakudoc",
+  paragraphs => (
+    RakuAST::Doc::Block.new(
+      type       => "code",
+      config     => (
+        :lang(RakuAST::QuotedString.new(
+          processors => <words val>,
+          segments   => (
+            RakuAST::StrLiteral.new("RakuDoc"),
+          )
+        )),
+      ),
+      paragraphs => (
+        "=config * :!error\n",
+      )
+    ),
+  )
+)
+Deparsed differs from original, deparsed:
+｢=begin rakudoc
+
+=begin code :lang<RakuDoc>
+
+=config * :!error
+=end code
+
+=end rakudoc
+
+｣

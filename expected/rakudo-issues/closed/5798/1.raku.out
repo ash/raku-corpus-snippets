@@ -1,0 +1,13 @@
+RakuAST::StatementList.new(
+  RakuAST::Doc::Block.new(
+    type       => "rakudoc",
+    paragraphs => (
+      RakuAST::Doc::Block.new(
+        type       => "MyBlk",
+        paragraphs => (
+          "stuff\n",
+        )
+      ),
+    )
+  )
+)

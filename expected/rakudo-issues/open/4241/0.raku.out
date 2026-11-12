@@ -1,0 +1,3 @@
+sgn1 = :(Int $i, Str $s --> Int)
+sgn2 = :(Int $i, Str $s --> Int)
+sgn3 = :(Int $i, Str $s --> Int)

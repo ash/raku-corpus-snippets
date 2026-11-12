@@ -1,0 +1,9 @@
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - Character class recognizes end-of-line
+ok 7 - Alternation recognizes end-of-line
+ok 8 - Property recognizes end-of-line
+1..8

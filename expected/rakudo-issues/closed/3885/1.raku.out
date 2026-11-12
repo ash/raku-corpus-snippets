@@ -1,0 +1,1 @@
+(my Regex %{Regex} = /'y'/ => /1/)

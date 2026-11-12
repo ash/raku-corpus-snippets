@@ -1,0 +1,4 @@
+--- Foo:
+direct:   R1::foo
+--- Bar:
+direct:   R1::foo

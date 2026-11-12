@@ -1,0 +1,4 @@
+X::Numeric::CannotConvert
+X::OutOfRange
+X::Numeric::Real
+X::Str::Numeric

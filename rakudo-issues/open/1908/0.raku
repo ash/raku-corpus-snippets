@@ -1,0 +1,11 @@
+$*DISTRO.auth;
+$*DISTRO.version;
+$*DISTRO.signature;
+$*DISTRO.desc;
+$*DISTRO.path-sep;
+$*DISTRO.path-sep.ords;
+$*DISTRO.is-win;
+$*DISTRO.release;
+$*DISTRO.gist;
+$*DISTRO.Str;
+$*DISTRO.cur-sep

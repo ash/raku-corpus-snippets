@@ -1,0 +1,1 @@
+say $*KERNEL.archname

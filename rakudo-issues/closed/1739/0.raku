@@ -1,0 +1,1 @@
+say dir.sort(&lc)

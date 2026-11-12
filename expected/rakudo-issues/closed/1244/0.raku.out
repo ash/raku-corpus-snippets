@@ -1,0 +1,3 @@
+[Pod::Block::Table{:config("\$\{:header-row(0)}")}
+  ["\@*ARGS", "B<Arguments> from the I<command line>."]
+]

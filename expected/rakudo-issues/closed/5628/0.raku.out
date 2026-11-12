@@ -1,0 +1,4 @@
+highlighted:
+<span style="color:yellow;">say</span> <span style="color:yellow;">foo</span>;
+
+No warnings

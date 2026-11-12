@@ -1,0 +1,1 @@
+$*PKGDECL <cmp> 'role' 

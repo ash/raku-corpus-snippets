@@ -1,0 +1,4 @@
+ok 1 - reparse of: role R { }
+ok 2 - reparse of: role { }
+ok 3 - reparse of: class { }
+ok 4 - reparse of: grammar { }

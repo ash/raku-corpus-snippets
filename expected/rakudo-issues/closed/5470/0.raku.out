@@ -1,0 +1,12 @@
+=begin pod
+
+=begin code
+
+class Foo {
+    method foo is some-trait { }
+}
+=end code
+
+=end pod
+
+

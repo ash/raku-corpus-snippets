@@ -1,0 +1,1 @@
+-> Array[::T] \a, Array[T] \b {}(Array[Int], Array[Int])

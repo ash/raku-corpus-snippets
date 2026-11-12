@@ -1,0 +1,1 @@
+dd gather { ().Seq.take }

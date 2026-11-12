@@ -1,0 +1,7 @@
+closureFactory(::Int) called.
+Calling $binder(18).
+Binder(Int 18) called.
+18
+calling $binder(1.8).
+Binder(Rat 1.8) called.
+X::TypeCheck::Return: Type check failed for return value; expected RT but got Rat (1.8)

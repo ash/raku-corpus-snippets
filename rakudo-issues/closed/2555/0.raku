@@ -1,0 +1,3 @@
+sub bug is export {
+  &[!<];
+}

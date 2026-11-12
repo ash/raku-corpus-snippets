@@ -1,0 +1,4 @@
+Buggy method ($t.xor_buggy($t)):
+  ❌ FAIL: Got '(Undefined)' but expected 'Nil'
+Workaround method ($t.xor_workaround($t)):
+  ✅ PASS: Got 'False' as expected

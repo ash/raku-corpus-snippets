@@ -1,0 +1,14 @@
+utf8:0x<F0 9F 87 BA F0 9F 87 B8>
+utf16:0x<D83C DDFA D83C DDF8>
+Unknown string encoding 'utf32'
+  in block <unit> at 0.raku line 3
+
+Unknown string encoding 'UTF32'
+  in block <unit> at 0.raku line 3
+
+Unknown string encoding 'utf-32'
+  in block <unit> at 0.raku line 3
+
+Unknown string encoding 'UTF-32'
+  in block <unit> at 0.raku line 3
+

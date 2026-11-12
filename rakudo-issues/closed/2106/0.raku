@@ -1,0 +1,1 @@
+@*ARGS = '-z'; sub MAIN(|) {}

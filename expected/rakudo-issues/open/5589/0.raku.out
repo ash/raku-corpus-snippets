@@ -1,0 +1,87 @@
+AST: RakuAST::Signature.new(
+  parameters => (
+    RakuAST::Parameter.new(
+      type     => RakuAST::Type::Simple.new(
+        RakuAST::Name.from-identifier("Str")
+      ),
+      target   => RakuAST::ParameterTarget::Var.new(
+        name => "\$"
+      ),
+      optional => False
+    ),
+    RakuAST::Parameter.new(
+      type     => RakuAST::Type::Simple.new(
+        RakuAST::Name.from-identifier("Str")
+      ),
+      optional => False,
+      value    => "John"
+    ),
+  )
+)
+astparams
+RakuAST::Parameter.new(
+  type     => RakuAST::Type::Simple.new(
+    RakuAST::Name.from-identifier("Str")
+  ),
+  target   => RakuAST::ParameterTarget::Var.new(
+    name => "\$"
+  ),
+  optional => False
+)RakuAST::Parameter.new(
+  type     => RakuAST::Type::Simple.new(
+    RakuAST::Name.from-identifier("Str")
+  ),
+  optional => False,
+  value    => "John"
+)
+sig2.raku: 
+RakuAST::Signature.new(
+  parameters => (
+    RakuAST::Parameter.new(
+      type => RakuAST::Type::Simple.new(
+        RakuAST::Name.from-identifier("A")
+      )
+    ),
+    RakuAST::Parameter.new(
+      type     => RakuAST::Type::Simple.new(
+        RakuAST::Name.from-identifier("Str")
+      ),
+      target   => RakuAST::ParameterTarget::Var.new(
+        name => "\$"
+      ),
+      optional => False
+    ),
+    RakuAST::Parameter.new(
+      type     => RakuAST::Type::Simple.new(
+        RakuAST::Name.from-identifier("Str")
+      ),
+      optional => False,
+      value    => "John"
+    ),
+  )
+)
+sig3.raku: 
+RakuAST::Signature.new(
+  parameters => (
+    RakuAST::Parameter.new(
+      type => RakuAST::Type::Simple.new(
+        RakuAST::Name.from-identifier("A")
+      )
+    ),
+    [RakuAST::Parameter.new(
+      type     => RakuAST::Type::Simple.new(
+        RakuAST::Name.from-identifier("Str")
+      ),
+      target   => RakuAST::ParameterTarget::Var.new(
+        name => "\$"
+      ),
+      optional => False
+    ), RakuAST::Parameter.new(
+      type     => RakuAST::Type::Simple.new(
+        RakuAST::Name.from-identifier("Str")
+      ),
+      optional => False,
+      value    => "John"
+    )],
+  )
+)

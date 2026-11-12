@@ -1,0 +1,1 @@
+((Str:D $a, Map:D \b --> Bool) (\a, Map:D \b --> Bool) (Str:D $a, array[str] \b --> Bool) (Int:D $a, array[int] \b --> Bool) (Num:D $a, array[num] \b --> Bool) (Int:D $a, Range:D \b --> Bool) (\a, Iterable:D \b --> Bool) (\a, Iterator:D \b --> Bool) (\a, QuantHash:D $b --> Bool) ($, Failure:D $b) (Failure:D $a, $) (\a, \b))

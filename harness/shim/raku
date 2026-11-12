@@ -1,0 +1,3 @@
+#!/bin/sh
+# The `raku` a .sh snippet calls: the implementation the harness was given.
+exec "${SHIM_RAKU:?SHIM_RAKU is set by gen-reference.sh / diff-rakupp.sh}" "$@"

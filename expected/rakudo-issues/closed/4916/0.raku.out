@@ -1,0 +1,2 @@
+Golf.new(values => [42])
+Cannot modify an immutable 'Golfy' type object

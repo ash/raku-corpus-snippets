@@ -1,0 +1,1 @@
+-> Int() @v { dd @v }(Array[Any].new: 1, 2, 34, 6)

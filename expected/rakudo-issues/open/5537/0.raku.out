@@ -1,0 +1,5 @@
+version: v6.d
+$num.raku: 1.1
+$num.WHAT: (Rat)
+$rat.WHAT:  (Rat)
+$rat.^parents:     ((Quadruped))

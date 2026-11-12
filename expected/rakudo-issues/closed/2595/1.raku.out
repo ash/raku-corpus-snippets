@@ -1,0 +1,3 @@
+closureFactory(::Int) called.
+Binder(Int 18) called.
+18

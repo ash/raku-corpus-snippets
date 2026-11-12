@@ -1,0 +1,1 @@
+say +permutations(30)

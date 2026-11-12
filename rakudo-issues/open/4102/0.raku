@@ -1,0 +1,1 @@
+say 'dfdgf'.encode('gbk')

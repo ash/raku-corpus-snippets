@@ -1,0 +1,4 @@
+'test'
+  .self
+  .self
+  .&say

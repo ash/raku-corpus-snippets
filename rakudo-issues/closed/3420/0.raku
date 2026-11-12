@@ -1,0 +1,1 @@
+try { Any.Str };

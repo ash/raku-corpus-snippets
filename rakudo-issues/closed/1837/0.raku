@@ -1,0 +1,1 @@
+-> Str $x { use nqp; dd $x ~ "" }((my str @)[1])

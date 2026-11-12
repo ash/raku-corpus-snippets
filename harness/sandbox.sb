@@ -1,0 +1,10 @@
+;; Sandbox for running strangers' snippets: no writes outside WORK and the temp dirs, no network beyond localhost.
+;; Use: sandbox-exec -f harness/sandbox.sb -D WORK=<the one directory it may write> <command>
+(version 1)
+(allow default)
+(deny file-write*)
+(allow file-write* (subpath (param "WORK")) (subpath "/dev") (subpath "/private/var/folders"))
+(deny network-outbound)
+(allow network-outbound (remote ip "localhost:*") (remote unix-socket))
+(deny network-bind)
+(allow network-bind (local ip "localhost:*"))

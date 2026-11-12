@@ -1,0 +1,2 @@
+\(:key("named"), "key\tkeyval" => "val")
+\("bar\tbaz" => 2, :foo(1))

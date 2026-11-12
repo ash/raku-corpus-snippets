@@ -1,0 +1,2 @@
+{any(False, False, False) => [b d e], any(False, False, True) => [f], any(False, True, False) => [c], any(True, False, False) => [a]}
+{any(False, False, False) => [2 4], any(False, False, True) => [5], any(False, True, False) => [3], any(True, False, False) => [1]}

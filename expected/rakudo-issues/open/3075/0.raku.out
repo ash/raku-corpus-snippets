@@ -1,0 +1,6 @@
+CopySnapshot
+GetLaunchTemplateData
+{CopySnapshot => Nil, GetLaunchTemplateData => Nil}
+Nil classes:
+GetLaunchTemplateData
+CopySnapshot

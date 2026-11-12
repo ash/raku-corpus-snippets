@@ -1,0 +1,9 @@
+# Subtest: untyped parameters
+    not ok 1 - should have 1 key
+    1..1
+not ok 1 - untyped parameters
+# Subtest: typed parameters
+    ok 1 - should have 1 key
+    1..1
+ok 2 - typed parameters
+1..2

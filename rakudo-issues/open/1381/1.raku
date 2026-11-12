@@ -1,0 +1,1 @@
+quietly { say $^a + $^b }

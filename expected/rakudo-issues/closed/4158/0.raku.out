@@ -1,0 +1,17 @@
+[Pod::Block::Para
+  I would like to talk about 
+  Pod::FormattingCode{:type("C")}
+    --
+  >, 
+  Pod::FormattingCode{:type("C")}
+
+  , 
+  Pod::FormattingCode{:type("C")}
+    << >> 
+  , 
+  Pod::FormattingCode{:type("C")}
+
+   and 
+  Pod::FormattingCode{:type("C")}
+    <--
+]

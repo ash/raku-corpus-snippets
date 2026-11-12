@@ -1,0 +1,1 @@
+say .uniname for (0x4E00, 0x17000);

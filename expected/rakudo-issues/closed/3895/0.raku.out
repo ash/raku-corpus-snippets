@@ -1,0 +1,3 @@
+ok 1 - Custom operator doesn't chain
+ok 2 - Custom operator with precedence same as == still doesn't chain
+ok 3 - Both are called the same

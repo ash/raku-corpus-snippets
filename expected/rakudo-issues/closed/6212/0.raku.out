@@ -1,0 +1,2 @@
+Page.new(title => Any, stub => "install")
+Page.new(title => "mypage", stub => "install")

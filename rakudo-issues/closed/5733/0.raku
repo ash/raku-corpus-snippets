@@ -1,0 +1,1 @@
+my $runme = "runme.raku"; my $h = $runme.IO.open(:w); $h.write(q|my %x; %x|.encode); my $d = q|<x>|.encode; for 1..1000000 { $h.write($d); }; $h.write(q| = 1; say %x.keys;|.encode); say "running generated code now..."; say so run $*EXECUTABLE.absolute, $runme; say "finished";

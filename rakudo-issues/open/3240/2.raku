@@ -1,0 +1,2 @@
+unit module Example;
+fail;

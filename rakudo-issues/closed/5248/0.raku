@@ -1,0 +1,1 @@
+"aa" ~~ /$<start>=<alpha> $<start>/

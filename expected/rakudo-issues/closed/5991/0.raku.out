@@ -1,0 +1,4 @@
+unit grammar G;
+regex x { :my $v; X}
+42
+

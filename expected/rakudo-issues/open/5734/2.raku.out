@@ -1,0 +1,3 @@
+
+script: tcgetattr/ioctl: Operation not supported on socket
+

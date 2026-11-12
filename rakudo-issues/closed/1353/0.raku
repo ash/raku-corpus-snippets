@@ -1,0 +1,1 @@
+dd NaN eqv NaN

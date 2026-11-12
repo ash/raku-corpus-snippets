@@ -1,0 +1,1 @@
+say sub { }.^methods

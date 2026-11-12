@@ -1,0 +1,28 @@
+LTM:
+｢.[]｣
+ ltm-issue => ｢.[]｣
+｢.[]｣
+ ltm-issue => ｢.[]｣
+Nil
+｢+｣
+ ltm-issue => ｢+｣
+
+OR, dot first:
+｢.[]｣
+ or-works1 => ｢.[]｣
+｢.[]｣
+ or-works1 => ｢.[]｣
+｢.[+]｣
+ or-works1 => ｢.[+]｣
+｢.[+]｣
+ or-works1 => ｢.[+]｣
+
+OR, plus first:
+｢.[]｣
+ or-works2 => ｢.[]｣
+｢.[]｣
+ or-works2 => ｢.[]｣
+｢.[+]｣
+ or-works2 => ｢.[+]｣
+｢.[+]｣
+ or-works2 => ｢.[+]｣
